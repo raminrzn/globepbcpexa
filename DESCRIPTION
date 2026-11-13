@@ -1,0 +1,20 @@
+Package: globepbcpexa
+Title: GLOBE Score for Primary Biliary Cholangitis (Lammers 2015) - ModelsCloud Service
+Version: 0.1.0
+Authors@R: c(
+    person("Ramin", "Rezaeianzadeh", email = "raminrzn@student.ubc.ca",
+           role = c("aut", "cre")))
+Description: Transplant-free survival at 3, 5, 10 and 15 years for patients
+    with primary biliary cholangitis treated with ursodeoxycholic acid, from
+    the original continuous GLOBE score (Lammers et al., Gastroenterology 2015
+    <doi:10.1053/j.gastro.2015.07.061>). Implemented from the published
+    equation. For research use; not a medical device.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.0.0)
+Imports: jsonlite, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/raminrzn/globepbcpexa
